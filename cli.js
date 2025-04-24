@@ -4,14 +4,24 @@ let fs = require('fs')
 let path = require('path')
 
 let skipFiles = {
+  /* nodejs directories */
   'node_modules': '',
-  '.git': '',
   'data': '',
   'dist': '',
   'build': '',
   '.nyc_output': '',
   'coverage': '',
   '.angular': '',
+
+  /* git directories */
+  '.git': '',
+
+  /* python virtual environment */
+  'site-packages': '',
+  'venv': '',
+  '.venv': '',
+  '.cache': '',
+  'python_modules': '',
 }
 
 function scanDir(dir) {
