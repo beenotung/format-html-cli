@@ -24,6 +24,9 @@
     "url": "https://github.com/beenotung/format-html-cli/issues"
   },
   "main": "cli.js",
+  "bin": {
+    "format-html-cli": "cli.js"
+  },
   "directories": {
     "example": "examples"
   },
