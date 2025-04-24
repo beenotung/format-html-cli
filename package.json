@@ -10,6 +10,14 @@
     "url": "https://beeno-tung.surge.sh"
   },
   "license": "BSD-2-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beenotung/format-html-cli.git"
+  },
+  "homepage": "https://github.com/beenotung/format-html-cli#readme",
+  "bugs": {
+    "url": "https://github.com/beenotung/format-html-cli/issues"
+  },
   "main": "cli.js",
   "directories": {
     "example": "examples"
