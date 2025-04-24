@@ -4,6 +4,8 @@ Format html file as post-hook to fix prettier
 
 [![npm Package Version](https://img.shields.io/npm/v/format-html-cli.svg?maxAge=2592000)](https://www.npmjs.com/package/format-html-cli)
 
+It restores `<!doctype html>` back to `<!DOCTYPE html>` as workaround for this issue: https://github.com/prettier/prettier/issues/15096
+
 ## Usage
 
 1. Install `format-html-cli` as global or local package
