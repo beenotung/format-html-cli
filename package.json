@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "type": "commonjs",
   "description": "Format html file as post-hook to fix prettier",
-  "keywords": [],
+  "keywords": [
+    "format",
+    "html",
+    "prettier",
+    "cli"
+  ],
   "author": {
     "name": "Beeno Tung",
     "email": "aabbcc1241@yahoo.com.hk",
