@@ -1,6 +1,6 @@
 {
   "name": "format-html-cli",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "commonjs",
   "description": "Format html file as post-hook to fix prettier",
   "keywords": [],
