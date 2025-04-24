@@ -14,6 +14,9 @@
   "directories": {
     "example": "examples"
   },
+  "files": [
+    "cli.js"
+  ],
   "scripts": {
     "test": "prettier --write examples/prettier-formatted.html && ./cli.js"
   },
